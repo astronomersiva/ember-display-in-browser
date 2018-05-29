@@ -1,0 +1,35 @@
+<ul>
+  {{#display-in-browser all=all}}
+    <li>
+      <h2>This will be visible in all browsers.</h2>
+    </li>
+  {{/display-in-browser}}
+
+  
+  {{#display-in-browser except='safari'}}
+    <li>
+      <h2>This will not be visible in Safari.</h2>
+    </li>
+  {{/display-in-browser}}
+
+  
+  {{#display-in-browser except='chrome'}}
+    <li>
+      <h2>This will not be visible in Chrome.</h2>
+    </li>
+  {{/display-in-browser}}
+
+  
+  {{#display-in-browser except='Firefox'}}
+    <li>
+      <h2>This will not be visible in Firefox.</h2>
+    </li>
+  {{/display-in-browser}}
+
+  
+  {{#display-in-browser only=only}}
+    <li>
+      <h2>This will be visible only in Chrome and Safari.</h2>
+    </li>
+  {{/display-in-browser}}
+</ul>
