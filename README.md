@@ -1,6 +1,8 @@
-# ember-display-in-browser
+# ember-display-in-browser [![Build Status](https://travis-ci.org/astronomersiva/ember-display-in-browser.svg?branch=master)](https://travis-ci.org/astronomersiva/ember-display-in-browser)
 
 Display browser specific content.
+
+You can see a demo [here](https://astronomersiva.github.io/ember-display-in-browser/).
 
 ### Why? 🤔
 
@@ -80,7 +82,7 @@ Chrome(or Safari) alone. **Compatibility matters**.
 
 Supported browsers - `'chrome', 'firefox', 'safari', 'opera', 'ie', 'edge', 'blink', 'mobile'`(case-insensitive).
 
-Inspired by [react-render-in-browser](https://github.com/flexdinesh/react-display-in-browser).
+Inspired by [react-render-in-browser](https://github.com/flexdinesh/react-render-in-browser).
 
 ### License
 
