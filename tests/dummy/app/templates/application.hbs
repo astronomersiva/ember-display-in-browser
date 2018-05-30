@@ -10,6 +10,14 @@
   <p>You are using Firefox</p>
 {{/display-in-browser}}
 
+{{#display-in-browser class="browser-message" only='mobile'}}
+  <p>You are using a mobile browser</p>
+{{/display-in-browser}}
+
+{{#display-in-browser class="browser-message" except=except}}
+  <p>You are using a browser other than Chrome, Safari, Firefox, IE or mobile</p>
+{{/display-in-browser}}
+
 {{#display-in-browser class="browser-message" only='ie'}}
   <p>This application can perform better on browsers other than Internet Explorer. Please consider using another browser.</p>
 {{/display-in-browser}}
