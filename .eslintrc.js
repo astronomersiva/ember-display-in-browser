@@ -11,6 +11,11 @@ module.exports = {
   plugins: [
     'ember'
   ],
+  globals: {
+    "require": true,
+    "module": true,
+    "process": true
+  },
   extends: [
     'eslint:recommended',
     'plugin:ember/recommended'
