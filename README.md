@@ -1,4 +1,4 @@
-# ember-display-in-browser [![Build Status](https://travis-ci.org/astronomersiva/ember-display-in-browser.svg?branch=master)](https://travis-ci.org/astronomersiva/ember-display-in-browser)
+# ember-display-in-browser [![Build Status](https://travis-ci.org/astronomersiva/ember-display-in-browser.svg?branch=master)](https://travis-ci.org/astronomersiva/ember-display-in-browser) [![Greenkeeper badge](https://badges.greenkeeper.io/astronomersiva/ember-display-in-browser.svg)](https://greenkeeper.io/)
 
 Display browser specific content.
 
